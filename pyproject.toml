@@ -1,0 +1,14 @@
+[project]
+name = "streamlit-perspective"
+version = "0.0.1"
+description = "Perspective components for Streamlit apps."
+readme = "README.md"
+authors = [
+    { name = "Manuel Šarić", email = "manujelko@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
