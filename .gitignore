@@ -208,3 +208,7 @@ __marimo__/
 
 # .python-version
 .python-version
+
+# Frontend
+node_modules/
+src/streamlit_perspective/frontend/build/

@@ -1,0 +1,7 @@
+[project]
+name = "streamlit-perspective"
+version = "0.0.1"
+
+[[tool.streamlit.component.components]]
+name = "streamlit_perspective"
+asset_dir = "frontend/build"

@@ -1,0 +1,27 @@
+{
+  "name": "streamlit-perspective-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run clean && npm run typecheck && npm run build:production",
+    "build:production": "cross-env NODE_ENV=production vite build",
+    "clean": "rimraf build",
+    "dev": "cross-env NODE_ENV=development vite build --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@perspective-dev/client": "^4.1.1",
+    "@perspective-dev/server": "^4.1.1",
+    "@perspective-dev/viewer": "^4.1.1",
+    "@perspective-dev/viewer-d3fc": "^4.1.1",
+    "@perspective-dev/viewer-datagrid": "^4.1.1",
+    "@streamlit/component-v2-lib": "^0.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "rimraf": "^6.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.12"
+  }
+}
